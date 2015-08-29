@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>So Much Tech News</title>
+
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style type="text/css">
+    .mdl-cell {
+        border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+    <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header mdl-layout__header--waterfall">
+            <!-- Top row, always visible -->
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">So Much Tech News</span>
+                <div class="mdl-layout-spacer"></div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
+                        <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                        <form name="search-news" action="post">
+                            <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--4-col">Content</div>
+                    <div class="mdl-cell mdl-cell--4-col">goes</div>
+                    <div class="mdl-cell mdl-cell--4-col">here</div>
+                    <div class="mdl-cell mdl-cell--4-col">Content</div>
+                    <div class="mdl-cell mdl-cell--4-col">goes</div>
+                    <div class="mdl-cell mdl-cell--4-col">here</div>
+                    <div class="mdl-cell mdl-cell--4-col">Content</div>
+                    <div class="mdl-cell mdl-cell--4-col">goes</div>
+                    <div class="mdl-cell mdl-cell--4-col">here</div>
+                    <div class="mdl-cell mdl-cell--4-col">Content</div>
+                    <div class="mdl-cell mdl-cell--4-col">goes</div>
+                    <div class="mdl-cell mdl-cell--4-col">here</div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
