@@ -1,0 +1,22 @@
+sites
+-----
+  id
+  name
+  description
+  
+rss_urls
+----
+  id
+  site_id
+  url
+  
+news
+----
+  id
+  site_id
+  extract_date
+  published_date
+  title
+  content
+  url
+  image
