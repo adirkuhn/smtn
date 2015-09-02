@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  extracao: 2015-09-01 22:26:37
+  publicacao: 2015-09-01 22:26:37
+  title: MyString
+  content: MyText
+  url: MyText
+  image: MyString
+  site_id: 
+
+two:
+  extracao: 2015-09-01 22:26:37
+  publicacao: 2015-09-01 22:26:37
+  title: MyString
+  content: MyText
+  url: MyText
+  image: MyString
+  site_id: 
